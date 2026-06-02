@@ -2,7 +2,7 @@
 
 A comprehensive guide for fine-tuning the Llama 3.1-8B model using native PyTorch training with Supervised Fine-Tuning (SFT) on an Indonesian language dataset.
 
-## 📋 Overview
+## Overview
 
 This project demonstrates how to efficiently fine-tune the Llama 3.1-8B model using:
 - **4-bit Quantization** with BitsAndBytes for memory-efficient training
@@ -12,7 +12,7 @@ This project demonstrates how to efficiently fine-tune the Llama 3.1-8B model us
 
 The pipeline creates a context-aware Indonesian language assistant optimized for your specific use cases.
 
-## ✨ Key Features
+## Key Features
 
 - **Memory-Efficient Training**: 4-bit quantization reduces memory requirements significantly
 - **Parameter Efficient**: LoRA adapts only a small fraction of model parameters
@@ -67,7 +67,7 @@ Follow the cells in order:
 - Larger effective batch size may require learning rate adjustment
 - Sweet spot: effective batch size of 32-64
 
-## 📖 Additional Resources
+## Additional Resources
 
 - [LLaMA 3.1 Model Card](https://huggingface.co/meta-llama/Llama-2-7b)
 - [TRL Documentation](https://huggingface.co/docs/trl)
@@ -75,7 +75,7 @@ Follow the cells in order:
 - [BitsAndBytes Guide](https://github.com/TimDettmers/bitsandbytes)
 - [HuggingFace Transformers](https://huggingface.co/docs/transformers)
 
-## 🎓 Dataset Information
+## Dataset Information
 
 **cahya/alpaca-id-cleaned:**
 - Language: Indonesian
